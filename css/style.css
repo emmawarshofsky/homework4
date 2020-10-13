@@ -27,17 +27,21 @@ nav li{
 
 }
 
-nav a:link{
+nav a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
+}
+
+nav ul{
+    text-decoration: none;
 }
 
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
 
-nav a:hover{
+nav ul:hover{
     text-decoration: underline;
 }
 
